@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>Label</key>
+  <string>com.example.check-for-changes</string>
+  <key>ProgramArguments</key>
+  <array>
+    <!-- Program name -->
+    <string>/Users/example/path/to/check_for_changes.sh</string>
+
+    <!-- directory -->
+    <string>/Users/example/path/to/where/to/store/temp/html/files</string>
+
+    <!-- log_file_name -->
+    <string>log_file_name</string>
+
+    <!-- url -->
+    <string>http://www.example.com</string>
+
+    <!-- username -->
+    <string>example_username</string>
+
+    <!-- password -->
+    <string>example_password</string>
+
+    <!-- pushbullet_access_token -->
+    <string>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</string>
+  </array>
+  <key>StartInterval</key>
+  <!-- Run every X seconds  -->
+  <integer>X</integer>
+  <!-- Start at login -->
+  <key>RunAtLoad</key>
+  <true/>
+  <!-- Don't ever stop -->
+  <key>KeepAlive</key>
+  <false/>
+</dict>
+</plist>
